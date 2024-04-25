@@ -1,0 +1,584 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.servicesbox1{
+    margin-top:50px;
+}
+/* .servicescontent */
+.servicescontent {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.servicescontent h2 {
+  color: #691247;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+/* .softwaredevelopment */
+.softwaredevelopment {
+  width: 97%;
+  height: 322.6px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 28.8px 28.8px 28.8px 28.8px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-items:center;
+  justify-content:center;
+  word-spacing: 2px;
+}
+.softwaredevelopment:hover{
+
+background:#961d65;
+}
+.softwaredevelopment h3{
+  color:#691247;
+  padding-top:10px;
+ 
+}
+.softwaredevelopment img {
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+}
+.softwaredevelopment p {
+
+  font-weight: 500;
+  padding-top:1px !important;
+  padding: 15px;
+  color: #5d6470;
+  text-align:justify !important;
+}
+.softwaredevelopment p:hover{
+  color:#fff;
+}
+/* .datamanagement */
+.datamanagement {
+  width: 97%;
+  height: 322.6px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 28.8px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  text-align:justify;
+  align-items:center;
+  justify-content: center;
+  word-spacing: 2px;
+}
+
+.datamanagement h3{
+  padding-top: 30px;
+  color:#691247;
+}
+.datamanagement p {
+  font-weight: 500;
+  padding: 12px;
+  padding-top: 20px !important;
+  color: #5d6470;
+}
+.datamanagement:hover{
+  background:#961d65;
+  color:white !important;
+}
+.datamanagement p:hover{
+  color:white;
+}
+.datamanagement img {
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+ 
+}
+/* .consulting */
+.consulting {
+  
+  width: 97%;
+  height: 322.6px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 28.8px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  word-spacing: 2px;
+}
+.consulting:hover{
+    background:#961d65;
+    color:white !important;
+}
+.consulting p:hover{
+    color:white;
+}
+.consulting h3{
+  padding-top: 30px;
+  color:#691247;
+}
+
+
+
+.consulting img {
+  width: 64px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+.consulting p {
+  align-items: justify;
+  text-align: justify;
+  font-weight: 500;
+  padding: 12px;
+  padding-top: 20px !important; 
+  color: #5d6470;
+}
+
+
+/* .servicesbox2 */
+
+
+.servicesbox2{
+    margin-top:35px;
+}
+/* .networksolutions */
+.networksolutions{
+width: 97%;
+height: 297.6px;
+background-color: white;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+padding: 28.8px;
+border-radius: 5px;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+text-align:justify;
+word-spacing: 2px;
+}
+.networksolutions img{
+  width:64px;
+  height:64px;
+  margin-top: 22px;  
+}
+.networksolutions h3{
+  color:#691247;
+  padding-top:25px;
+}
+.networksolutions p{
+  font-weight: 500;
+  padding: 12px;
+  padding-top: 5px !important;
+  color: #5d6470;
+}
+.networksolutions:hover{
+  background:#961d65;
+  color:white;
+}
+.networksolutions p:hover{
+color:#fff;
+}
+/* .cloudcomputing */
+.cloudcomputing{
+  width: 97%;
+  height: 297.6px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 28.8px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:justify;
+  word-spacing: 2px;
+
+}
+.cloudcomputing img{
+  width:64px;
+  height:64px;
+  margin-top: 28px;
+}
+.cloudcomputing h3{
+  color:#691247;
+  padding-top:20px;
+}
+.cloudcomputing p{
+  font-weight: 500;
+  padding: 12px;
+  padding-top: 5px !important;
+  color: #5d6470;
+}
+.cloudcomputing:hover{
+  background:#961d65;
+  color:white;
+}
+.cloudcomputing p:hover{
+color:#fff;
+}
+/* .support */
+.support{
+  width: 97%;
+  height: 297.6px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 28.8px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:justify;
+  word-spacing: 2px;
+}
+.support img{
+  width:64px;
+  height:64px;
+  margin-top: 28px;
+}
+.support h3{
+  color:#691247;
+  padding-top:20px;
+}
+.support p{
+  font-weight: 500;
+  padding: 12px;
+  padding-top: 5px !important;
+  color: #5d6470;
+}
+.support:hover{
+  background:#961d65;
+  color:white;
+}
+.support p:hover{
+color:#fff;
+}
+@media (min-width:320px) and (max-width:425px){
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .servicesbox1{
+      margin-top:50px;
+  }
+  /* .servicescontent */
+  .servicescontent {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .servicescontent h2 {
+    color: #691247;
+    font-weight: 800;
+    font-size: 1.7rem;
+    width:100%;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    padding:0px 40px 0px 40px;
+    
+
+  }
+  .servicescontent p{
+    display:flex;
+    text-align:justify;
+    align-items:center;
+    justify-content:justify;
+    padding:0px 20px 0px 20px;
+    font-size:13px;
+  }
+  /* .softwaredevelopment */
+  .softwaredevelopment {
+    width: 87%;
+    height: 260px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0px 10px 20px 10px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+    word-spacing: 2px;
+    margin-left: 20px;
+  }
+  .softwaredevelopment:hover{
+  
+  background:#961d65;
+  }
+  .softwaredevelopment h3{
+    color:#691247;
+    padding-top:10px;
+   
+  }
+  .softwaredevelopment img {
+    width: 64px;
+    height: 64px;
+    margin-top: 50px;
+  }
+  .softwaredevelopment p {
+  
+    font-weight: 500;
+    font-size:13px;
+    padding-top:1px !important;
+    padding: 15px;
+    color: #5d6470;
+    text-align:justify !important;
+  }
+  .softwaredevelopment p:hover{
+    color:#fff;
+  }
+  /* .datamanagement */
+  .datamanagement {
+    width: 87%;
+    height: 260px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    text-align:justify;
+    align-items:center;
+    justify-content: center;
+    word-spacing: 2px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .datamanagement h3{
+    padding-top: 0px;
+    color:#691247;
+    width:50%;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+  }
+  .datamanagement p {
+    color: #5d6470;
+    text-align:justify !important;
+    font-weight: 500;
+    padding: 15px;
+    font-size:13px;
+    padding-top: 0px !important;
+    color: #5d6470;
+  }
+  .datamanagement:hover{
+    background:#961d65;
+    color:white !important;
+  }
+  .datamanagement p:hover{
+    color:white;
+  }
+  .datamanagement img {
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+   
+  }
+  /* .consulting */
+  .consulting {
+    
+    
+    width: 87%;
+    height: 230px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    word-spacing: 2px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .consulting:hover{
+      background:#961d65;
+      color:white !important;
+  }
+  .consulting p:hover{
+      color:white;
+  }
+  .consulting h3{
+    padding-top: 0px;
+    color:#691247;
+  }
+  
+  
+  
+  .consulting img {
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+  }
+  
+  .consulting p {
+    align-items: justify;
+    text-align: justify;
+    font-weight: 500;
+    padding: 12px;
+    font-size:13px;
+    padding-top: 0px !important; 
+    color: #5d6470;
+  }
+  
+  
+  /* .servicesbox2 */
+  
+  
+  .servicesbox2{
+      margin-top:35px;
+  }
+  /* .networksolutions */
+  .networksolutions{
+
+  width: 87%;
+  height: 240px;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px 10px 20px 10px ;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  text-align:justify;
+  word-spacing: 2px;
+  margin-top: 5px;
+  margin-left: 20px;
+  }
+  .networksolutions img{
+    width:64px;
+    height:64px;
+    margin-top: 22px;  
+  }
+  .networksolutions h3{
+    color:#691247;
+    padding-top:5px;
+    width:50%;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+
+  }
+  .networksolutions p{
+    font-weight: 500;
+    padding: 12px;
+    font-size:13px;
+    padding-top: 0px !important;
+    color: #5d6470;
+  }
+  .networksolutions:hover{
+    background:#961d65;
+    color:white;
+  }
+  .networksolutions p:hover{
+  color:#fff;
+  }
+  /* .cloudcomputing */
+  .cloudcomputing{
+    
+    width: 87%;
+    height: 240px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:10px 10px 20px 10px ;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:justify;
+    word-spacing: 2px;
+    margin-top: 40px;
+    margin-left: 20px;
+
+  
+  }
+  .cloudcomputing img{
+    width:64px;
+    height:64px;
+    margin-top: 40px;
+  
+  }
+  .cloudcomputing h3{
+    color:#691247;
+    padding-top:0px;
+    width:50%;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+  }
+  .cloudcomputing p{
+    font-weight: 500;
+    padding: 12px;
+    font-size:13px;
+    padding-top: 5px !important;
+    color: #5d6470;
+  }
+  .cloudcomputing:hover{
+    background:#961d65;
+    color:white;
+  }
+  .cloudcomputing p:hover{
+  color:#fff;
+  }
+  /* .support */
+  .support{
+  
+    width: 87%;
+    height: 240px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:10px 10px 20px 10px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:justify;
+    word-spacing: 2px;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+  }
+  .support img{
+    width:64px;
+    height:64px;
+    margin-top: 28px;
+  }
+  .support h3{
+    color:#691247;
+    padding-top:20px;
+  }
+  .support p{
+    font-weight: 500;
+    padding: 12px;
+    font-size:13px;
+    padding-top: 5px !important;
+    color: #5d6470;
+  }
+  .support:hover{
+    background:#961d65;
+    color:white;
+  }
+  .support p:hover{
+  color:#fff;
+  }
+}

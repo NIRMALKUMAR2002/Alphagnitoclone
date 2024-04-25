@@ -1,0 +1,424 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.entirefooter .footer{
+   /* padding-top:300px;   
+ 
+    position:absolute;
+    display:flex; */
+   
+
+}
+/* footers */
+.footers{
+    margin-top: 150px;
+    background-image:url("../../assets/footerimg.png");
+    background-attachment: fixed;
+    background-size:cover;
+    width:100%;
+    height:74.3vh;
+ 
+
+ 
+    
+}
+
+.footer{
+    display:flex;
+    /* margin-top: 100px;
+     */
+}
+
+.alphagnito{
+    width:190%;
+    padding-top:75px;
+
+
+}
+.alphagnito img{
+    width:458px;
+    height:135.9px;
+    margin-left:135px;
+
+ 
+}
+.alphagnito .spanpara a{
+    text-decoration: none;
+    font-weight:700;
+    background-image: linear-gradient(#ae00ae, #d72590);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity:none !important;
+}
+.alphagnito  p{
+    color:white;
+    opacity: .7;
+    margin-left: 152px;
+  
+}
+.alphagnito .para1{
+ margin-top: 20px;
+}
+.alphagnito .para2{
+    padding-top: 16px;
+   }
+.alphagnito h2{
+    font-size:1.5rem;
+    font-weight:700;
+    /* color:#ffff; */
+   color:white;
+   opacity: .7;
+   padding-top: 18px;
+   padding-left: 152px;
+}
+.alphagnito .icons{
+    display:flex;
+    width:50px;
+    height:50px;
+    padding-top: 16px;
+    padding-left: 152px;
+    
+}
+
+
+.iconsfb span a{
+    font-size:22px;
+    width:50px;
+    height:50px;
+    background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+    border-radius:50%;
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    padding-left: 0px;
+    
+    
+}
+.icontwitter span a{
+    font-size:22px;
+    width:50px;
+    height:50px;
+    background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+    border-radius:50%;
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    margin-left: 16px;
+    padding-left: 0px;
+   
+    
+}
+.icongoogle span a{
+    font-size:22px;
+    width:50px;
+    height:50px;
+    background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+    border-radius:50%;
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    margin-left:16px;
+    padding-left: 0px;
+}
+.iconinstagram span a{
+    font-size:22px;
+    width:50px;
+    height:50px;
+    background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+    border-radius:50%;
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    margin-left: 16px;
+    padding-left: 0px;
+}
+.iconlinkedin span a{
+    font-size:22px;
+    width:50px;
+    height:50px;
+    background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+    border-radius:50%;
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    padding-left: 0px;
+    margin-left: 16px;
+}
+/* .menu */
+.menu{
+    color:white;
+    display:flex;
+    flex-direction: column;
+  align-items: justify;
+    padding-left: 215px;
+padding-top: 110px;
+
+}
+.menu h5{
+    font-size:2rem;
+    font-weight:700;
+    opacity:.7;
+    
+    
+}
+.menu a{
+    padding-top: 18px;
+    opacity: .7;
+    text-decoration:none;
+    color:white;
+}
+/* .solutions */
+.solutions{
+color:white;
+display:flex;
+flex-direction:column;
+align-items:justify;
+padding-left: 50px;
+padding-top: 110px;
+
+
+}
+.solutions h5{
+    font-size:2rem;
+    font-weight:700;
+    color:white;
+    color:var(--bs-heading-color);
+    opacity: .7;
+   
+    
+}
+.solutions p{
+    padding-top: 18px;
+    opacity: .7;
+}
+
+@media (min-width:320px) and (max-width:425px){
+    *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    }
+    .entirefooter .footer{
+       /* padding-top:300px;   
+     
+        position:absolute;
+        display:flex; */
+       
+    
+    }
+    /* footers */
+    .footers{
+        margin-top: 700px;
+        background-image:url("../../assets/footerimg.png");
+        background-attachment: fixed;
+        background-size:cover;
+        width:100%;
+        height:114.3vh;
+     
+    
+     
+        
+    }
+    
+    .footer{
+        display:flex;
+        /* margin-top: 100px;
+         */
+    }
+    
+    .alphagnito{
+        width:190%;
+        padding-top:15px;
+    
+    
+    }
+    .alphagnito img{
+        width:238px;
+        height:65.9px;
+        margin-left:35px;
+    
+     
+    }
+    .alphagnito .spanpara a{
+        text-decoration: none;
+        font-weight:700;
+        background-image: linear-gradient(#ae00ae, #d72590);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity:none !important;
+    }
+    .alphagnito  p{
+        color:white;
+        opacity: .7;
+        margin-left: 22px;
+        padding-right: 20px !important;
+        width:60%;
+      
+    }
+    .alphagnito .para1{
+     margin-top: 20px;
+     font-size:13px;
+    }
+    .alphagnito .para2{
+        padding-top: 16px;
+        font-size:13px;
+        width: 50%;
+       }
+    .alphagnito h2{
+        font-size:1.5rem;
+        font-weight:700;
+        /* color:#ffff; */
+       color:white;
+       opacity: .7;
+       padding-top: 18px;
+       padding-left: 22px;
+    }
+    .alphagnito .icons{
+        display:flex;
+        width:30px;
+        height:30px;
+        padding-top: 16px;
+        padding-left: 22px;
+        
+    }
+    
+    
+    .iconsfb span a{
+        font-size:22px;
+        width:40px;
+        height:40px;
+        background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+        border-radius:50%;
+        color:white;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        justify-content:center;
+        padding-left: 0px;
+        
+        
+    }
+    .icontwitter span a{
+        font-size:22px;
+        width:40px;
+        height:40px;
+        background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+        border-radius:50%;
+        color:white;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        justify-content:center;
+        margin-left: 16px;
+        padding-left: 0px;
+       
+        
+    }
+    .icongoogle span a{
+        font-size:22px;
+        width:40px;
+        height:40px;
+        background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+        border-radius:50%;
+        color:white;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        justify-content:center;
+        margin-left:16px;
+        padding-left: 0px;
+    }
+    .iconinstagram span a{
+        font-size:22px;
+        width:40px;
+        height:40px;
+        background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+        border-radius:50%;
+        color:white;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        justify-content:center;
+        margin-left: 16px;
+        padding-left: 0px;
+    }
+    .iconlinkedin span a{
+        font-size:22px;
+        width:40px;
+        height:40px;
+        background-image:linear-gradient(to bottom, #c402fa, #ff2dab);
+        border-radius:50%;
+        color:white;
+        display:flex;
+        align-items:center;
+        text-align:center;
+        justify-content:center;
+        padding-left: 0px;
+        margin-left: 16px;
+    }
+    /* .menu */
+    .menu{
+        color:white;
+        display:flex;
+        flex-direction: column;
+      align-items: justify;
+        padding-left: 5px;
+    padding-top: 360px;
+    margin-left: -270px;
+    
+    }
+    .menu h5{
+        font-size:1.4rem;
+        font-weight:700;
+        opacity:.7;
+        
+        
+    }
+    .menu a{
+        padding-top: 28px;
+        opacity: .7;
+        text-decoration:none;
+        color:white;
+        font-size:13px;
+    }
+    /* .solutions */
+    .solutions{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:justify;
+    padding-left: 5px;
+    padding-top: 360px;
+    margin-left: -140px;
+    
+    
+    }
+    .solutions h5{
+        font-size:1.4rem;
+        font-weight:700;
+        color:white;
+        color:var(--bs-heading-color);
+        opacity: .7;
+       
+        
+    }
+    .solutions p{
+        margin-top: 20px !important;
+        padding-top: 2px !important;
+        opacity: .7;
+        font-size:13px;
+    }
+   
+}

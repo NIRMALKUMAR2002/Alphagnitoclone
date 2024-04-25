@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* .ourclients */
+.ourclients{
+    margin-top: 150px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+.ourclients h1{
+    color:#691247;
+    font-weight:800;
+    font-size:2.5rem;
+    
+}
+.ourclients p{
+    padding-top: 5px;
+   color: #848e9f;
+   font-size:1.1rem;
+   font-weight:500; 
+   text-transform:uppercase;
+   letter-spacing: 1.4px;
+}
+/* ourclientsimages */
+.ourclientsimages{
+    display:flex;
+    padding-left:10%!important;
+    position:relative;
+    width:300px !important;
+}
+.tcmlogo img{
+    width:400px;
+    padding:92px 0px 0px 100px;
+
+    
+    
+}
+.wrexalogo img{
+    width:300px;
+    padding:72px 0px 0px 170px ;
+   
+}
+.annularlogo img{
+    width:300px;
+    padding:72px 0px 0px  100px;
+}
+.pepylogo img {
+    width:300px;
+    padding:72px 0px 0px 100px ;
+}
+.spclogo img{
+    width:300px;
+    padding:72px 0px 0px   100px;
+}
+.isrllogo img{
+    width:300px;
+    padding:72px 0px 0px  100px;
+}
+.myincorplogo img{
+    width:300px;
+    padding:72px 0px 0px 100px ;
+}
+.meezarlogo img{
+    width:300px;
+    padding:72px 0px 0px 290px ;
+}
+@media (min-width:320px) and (max-width:425px){
+    *{
+        padding:0;
+        margin:0;
+        box-sizing:border-box;
+    }
+    /* .ourclients */
+    .ourclients{
+        margin-top: 40px;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+    }
+    .ourclients h1{
+        color:#691247;
+        font-weight:800;
+        font-size:1.7rem;
+        
+    }
+    .ourclients p{
+    
+       color: #848e9f;
+       font-size:13px !important;
+       font-weight:500; 
+       text-transform:uppercase;
+       letter-spacing: 1.4px;
+       word-spacing:15px;
+       display:flex;
+       text-align:justify;
+       align-items:center;
+       justify-content: center;
+       padding:5px 20px 0px 20px;
+    }
+    /* ourclientsimages */
+    .ourclientsimages{
+        display:flex;
+        padding-left:10%!important;
+        position:relative;
+        width:300px !important;
+    }
+    .tcmlogo img{
+        width:400px;
+        padding:92px 0px 0px 100px;
+    
+        
+        
+    }
+    .wrexalogo img{
+        width:300px;
+        padding:72px 0px 0px 170px ;
+       
+    }
+    .annularlogo img{
+        width:300px;
+        padding:72px 0px 0px  100px;
+    }
+    .pepylogo img {
+        width:300px;
+        padding:72px 0px 0px 100px ;
+    }
+    .spclogo img{
+        width:300px;
+        padding:72px 0px 0px   100px;
+    }
+    .isrllogo img{
+        width:300px;
+        padding:72px 0px 0px  100px;
+    }
+    .myincorplogo img{
+        width:300px;
+        padding:72px 0px 0px 100px ;
+    }
+    .meezarlogo img{
+        width:300px;
+        padding:72px 0px 0px 290px ;
+    }
+}

@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* .entireaboutus */
+.entireaboutus{
+   margin-top: 50px; 
+}
+.entireaboutus h1{
+    color:#000;
+    font-size:2.5rem;
+    font-weight:900;
+    text-align:center;
+}
+/* .aboutframe */
+.aboutframe{
+    display:flex;
+    margin-top:50px;
+}
+.aboutframe img{
+    height:600px;
+}
+.aboutframe .contactus{
+    margin-top: 50px;
+}
+/* doubt */
+.aboutcontent{
+    color:#ffff;
+    display:flex;
+    position:absolute;
+    background-color: #691247;
+    margin-top: -290px;    
+    margin-left: 165px;
+    width:380px;
+    height:250px;
+    font-size:17px;
+    text-align:justify;
+    align-items:center;
+    padding:60px 35px 40px 30px;
+}
+.aboutcontent img{
+    width:70px;
+    height:70px;
+    position:absolute;
+    margin-top: -280px;
+    margin-left: 8px;
+}
+.aboutcontent p{
+    opacity:1;
+}
+/* .webconsultants */
+.webconsultants p {
+   
+    /* display:flex; */
+    margin-left: 60px;
+    margin-top: 30px;
+    width:550px;
+    text-align:justify;
+    border-left:3px solid #691247;
+    padding-left:2vw;
+}
+
+.webconsultants h2{
+    display:flex;
+}
+
+.webconsultants h2{
+    display:flex;
+    color:#691247;
+    font-size:2.6rem;
+    font-weight:900;
+    margin-left:25px;
+
+
+
+}
+
+/* .contactus */
+ .contactusbutton{
+    text-decoration:none;
+    padding:12px 20px;
+    color:#fff;
+    font-size:14.8px;
+    background-color:#d72590 ;
+    font-weight:500;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.contactus .contactusbutton a{
+    opacity:.9;
+}
+
+.contactus p{
+    margin-top: 25px;
+    color:#5d6470;
+    opacity: 0.9;
+    font-weight:500;
+    margin-left: 65px;
+    width:500px;
+    
+}
+
+
+.icon1{
+    position:absolute;
+    color:#000; 
+    margin-top:5px;
+    margin-left: -30px;
+    width:20px;
+
+}
+
+@media (min-width:320px) and (max-width:425px){
+    /* .entireaboutus */
+.entireaboutus{
+    margin-top: 10px; 
+ }
+ .entireaboutus h1{
+     color:#000;
+     font-size:1.8em;
+     font-weight:900;
+     text-align:center;
+ }
+ /* .aboutframe */
+ .aboutframe{
+     display:flex;
+     margin-top:50px;
+ }
+ .aboutframe img{
+     height:600px;
+     width:100% !important;
+ }
+ .aboutframe .contactus{
+     margin-top: 50px;
+ }
+ /* doubt */
+ .aboutcontent{
+     color:#ffff;
+     display:flex;
+     position:absolute;
+     background-color: #691247;
+     margin-top: -245px;    
+     margin-left: 30px;
+     width:265px;
+     height:230px;
+     font-size:17px;
+     text-align:justify;
+     align-items:center;
+     padding:65px 20px 50px 20px;
+    word-spacing: 8.5px;
+ }
+ .aboutcontent img{
+     width:75px !important;
+     height:75px !important;
+     position:absolute;
+     margin-top: -270px;
+     padding-right: 10px !important;
+     margin-left: 0px !important;
+ }
+ .aboutcontent p{
+     opacity:1;
+     font-size:13px;
+ }
+ /* .webconsultants */
+ .webconsultants p {
+    
+     /* display:flex; */
+     margin-left: 35px;
+     margin-top: 30px;
+     width:230px;
+     font-size:13px;
+     text-align:justify;
+     border-left:3px solid #691247;
+     padding-left:10px  ;
+ }
+ 
+ 
+ .webconsultants h2{
+     display:flex;
+     color:#691247;
+     font-size:1.8rem;
+     font-weight:900;
+     margin-left:0px;
+     padding:30px 30px 0px 35px ;
+     width:50%;
+     text-align:center;
+     align-items:center;
+ 
+ 
+ 
+ }
+ 
+ /* .contactus */
+  .contactusbutton{
+     text-decoration:none;
+     padding:12px 20px;
+     color:#fff;
+     font-size:14.8px;
+     background-color:#d72590 ;
+     font-weight:500;
+     margin-top: 20px;
+     margin-left: 30px;
+ }
+ 
+ .contactus .contactusbutton a{
+     opacity:.9;
+ }
+ 
+ .contactus p{
+     margin-top: 25px;
+     color:#5d6470;
+     opacity: 0.9;
+     font-weight:500;
+     font-size:13px;
+     margin-left: 65px;
+     width:70%;
+  
+     
+ }
+ 
+ 
+ .icon1{
+     position:absolute;
+     color:#000; 
+     margin-top:5px;
+     margin-left: -30px;
+     width:20px;
+ 
+ }
+}
