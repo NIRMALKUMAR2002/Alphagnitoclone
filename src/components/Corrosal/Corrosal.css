@@ -177,3 +177,102 @@ height:80px;
 
 }
 }
+@media (min-width:481px) and (max-width:768px){
+  .landingpageimg img {
+    width:83%;
+    height:75vh;
+    filter:brightness(50%);
+  
+  }
+  
+  .landingpagecontent{
+  color:white;
+  position:absolute;
+  top: 30% ;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  justify-content:center;
+  
+  
+  }
+  .landingpagecontent h1{
+  font-size:35px;
+  font-weight:900;
+  letter-spacing:1px;
+  
+  
+  
+  }
+  .landingpagecontent h3{
+  font-size:calc(1.1rem + .4vw);
+  font-weight:500;
+  padding-top:0px !important;
+  
+  }
+  .landingpagecontent p{
+  font-size:13px;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top:0px !important;
+  display:flex;
+  align-items:center;
+  text-align:center;
+  justify-content:center;
+  }
+  
+  /* landingpagebutton */
+  .landingpagebutton{
+  padding-top:0px !important ;
+  display:flex;
+
+  }
+  .landingpagebutton .moreabout {
+
+ 
+  text-decoration:none;
+  color:white;
+  padding:12px 15px  !important;
+  border:1px solid #fff;
+  border-radius: none;
+  outline:none;
+  margin-top: 10px;
+  margin-left: 20px !important ;
+  font-size:13px;
+  font-weight:900px !important; 
+  }
+  .moreabout:hover{
+  background-color: #d72590 ;
+  }
+  .landingpagebutton .ourservices{
+  
+  text-decoration:none;
+  color:white;
+  padding:12px 15px  !important;
+  border:1px solid #fff;
+  border-radius: none;
+  outline:none;
+  margin-top: 10px;
+  margin-left: 20px !important ;
+  font-size:13px;
+  font-weight:900px !important; 
+  
+  }
+  
+  .ourservices:hover{
+  background-color: #d72590 ;
+  
+  }
+  /* thinkingandutilising */
+  .thinkingandutilising{
+  
+  display: none;
+  
+  }
+  .thinkingandutilising img{
+  width:80px;
+  height:80px;
+  
+  }
+}

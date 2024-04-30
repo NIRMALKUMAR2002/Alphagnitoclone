@@ -9,7 +9,7 @@ const Aboutus = () => {
     <div>
       <div className="container">
         {/* entireaboutus */}
-        <div className="entireaboutus">
+        <div className="entireaboutus ">
           <h1>ABOUT US</h1>
           {/* aboutframe */}
           <div className="aboutframe">

@@ -99,3 +99,63 @@ border-top: 3px solid #d72590;
     padding-top: 10px;
   }
 }
+@media (min-width:481px) and (max-width:768px){
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .mission {
+    background-color: #21012bc5;
+    color: white;
+  
+    width: 85%;
+    height:63vh;
+  }
+  /* entiremission */
+  .entiremission {
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .entiremission p {
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  /* .chooseus */
+  .chooseus {
+    padding: 20px 10px;
+  
+  }
+  .chooseus h2 {
+    /* border-bottom: 3px solid #d72590; */
+    font-size:1.4rem;
+  }
+  .chooseus p {
+    padding-top: 10px;
+    justify-content: justify;
+    align-items: justify;
+    text-align: justify;
+  border-top: 3px solid #d72590;
+  font-size:13px;
+
+  
+  }
+  /* .ourmission */
+  .ourmission {
+    padding: 02px 10px;
+    padding-left: 10px !important;
+  }
+  .ourmission p {
+    justify-content: center;
+    align-items: justify;
+    text-align: justify;
+    border-top: 3px solid #d72590;
+    transition: right 2s;
+    font-size:13px;
+    padding-top: 10px;
+  }
+  .ourmission h2{
+      font-size:1.4rem;
+  }
+}

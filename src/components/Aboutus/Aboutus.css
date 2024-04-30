@@ -230,3 +230,127 @@
  
  }
 }
+@media (min-width:481px) and (max-width:768px){
+    .entireaboutus{
+        margin-top: 10px; 
+     }
+     .entireaboutus h1{
+         color:#000;
+         font-size:1.8em;
+         font-weight:900;
+         display:flex;
+         text-align:center;
+         align-items:center;
+         justify-content:center;
+         margin-left: -100px;
+     }
+     /* .aboutframe */
+     .aboutframe{
+         display:flex;
+         margin-top:50px;
+     }
+     .aboutframe img{
+         height:500px;
+         width:60% !important;
+         margin-left: 70px;
+
+     }
+     .aboutframe .contactus{
+         margin-top: 50px;
+     }
+     /* doubt */
+     .aboutcontent{
+         color:#ffff;
+         display:flex;
+         position:absolute;
+         background-color: #691247;
+         margin-top: -205px;    
+         margin-left: 138px;
+         width:350px;
+         height:180px;
+         font-size:17px;
+         text-align:justify;
+         align-items:center;
+         padding:65px 30px 50px 30px;
+        word-spacing: 6.5px;
+     }
+     .aboutcontent img{
+         width:70px !important;
+         height:60px !important;
+         position:absolute;
+         margin-top: -205px;
+         padding-right: 10px !important;
+         margin-left: 0px !important;
+     }
+     .aboutcontent p{
+         opacity:1;
+         font-size:13px;
+     }
+     /* .webconsultants */
+     .webconsultants p {
+        
+         /* display:flex; */
+         margin-left: 85px;
+         margin-top: 30px;
+         width:430px;
+         font-size:13px;
+         text-align:justify;
+         border-left:3px solid #691247;
+         padding-left:10px  ;
+         word-spacing:8px;
+     }
+     
+     
+     .webconsultants h2{
+         display:flex;
+         color:#691247;
+         font-size:1.8rem;
+         font-weight:900;
+         margin-left:0px;
+         padding:30px 30px 0px 35px ;
+         width:100%;
+         text-align:center;
+         align-items:center;
+     
+     
+     
+     }
+     
+     /* .contactus */
+      .contactusbutton{
+         text-decoration:none;
+         padding:10px 15px;
+         color:#fff;
+         font-size:14.8px;
+         background-color:#d72590 ;
+         font-weight:500;
+         margin-top: 20px;
+         margin-left: 40px;
+     }
+     
+     .contactus .contactusbutton a{
+         opacity:.9;
+     }
+     
+     .contactus p{
+         margin-top: 25px;
+         color:#5d6470;
+         opacity: 0.9;
+         font-weight:500;
+         font-size:13px;
+         margin-left: 65px;
+         width:70%;
+      
+         
+     }
+     
+     
+     .icon1{
+         position:absolute;
+         color:#000; 
+         margin-top:5px;
+         margin-left: -30px;
+         width:20px;
+     
+     }
+}

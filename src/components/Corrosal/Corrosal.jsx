@@ -19,8 +19,8 @@ const Corrosal = () => {
              <div className="row">
           
               <div className="col-lg-2"></div>
-          <div className="col-lg-5">
-            <div className="landingpagecontent">
+          <div className="col-lg-5 col-md-4">
+            <div className="ms-5 mb-5 landingpagecontent">
               <h1>ALPHAGNITO</h1>
               <h3>A Trip to Tech World</h3>
               <p>

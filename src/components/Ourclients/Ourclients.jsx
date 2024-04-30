@@ -26,7 +26,7 @@ function AutoPlay() {
   };
   return (
     <div className="container">
-      <div className="ourclients">
+      <div className="ourclients me-5">
         <h1>OUR CLIENTS</h1>
         <p>
           OUR COMMITMENT TO DELIVERING TOP-NOTCH IT SERVICES HAS EARNED US THE
@@ -116,3 +116,4 @@ function AutoPlay() {
 }
 
 export default AutoPlay;
+

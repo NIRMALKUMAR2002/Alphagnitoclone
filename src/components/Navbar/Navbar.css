@@ -154,3 +154,14 @@
         background-color: #ae00e0  ;
     }
 }
+@media (min-width:481px) and (max-width:768px){
+    .entirenavbar{
+        display:flex;
+        background-color:#000;
+        /* opacity:0.9; */
+        width:83%;
+        height:65px;
+        position:sticky;
+        z-index:11111;   
+    }
+}

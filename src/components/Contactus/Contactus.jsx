@@ -29,9 +29,9 @@ const Contactus = () => {
                   <div className="getintouch">
                     <h1>Get in Touch</h1>
                     <p>
-                      Our dedicated support team is <br />
-                      available around the clock to <br />
-                      resolve issues promptly and <br />
+                      Our dedicated support team is 
+                      available around the clock to 
+                      resolve issues promptly and 
                       minimize downtime.
                     </p>
 
